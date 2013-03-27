@@ -7,6 +7,7 @@ class Person
   attr_accessor :github_user
   attr_accessor :twitter
   attr_accessor :fun_fact
+  attr_accessor :favorite_bar
 end
 
 class Student < Person
@@ -26,20 +27,34 @@ while ((input = gets.strip.chomp) != 'q') do
   person = nil
   case input
   when 'Student' 
-    person = Student.new
-    print "What is your name? "
-    person.name = gets.strip.chomp
-    print "What is your email? "
-    person.email = gets.strip.chomp
-    
-  when 'Instructor'
-    person = Instructor.new
+    Student.reason_for_joining = gets.strip.chomp
+    # person = Student.new
+    # print "What is your name? "
+    # person.name = gets.strip.chomp
+    # print "What is your email? "
+    # person.email = gets.strip.chomp
+    # print "Why are you taking this course? "
+    # print "whats your favorite bar? "
+    # person.favorite_bar = gets.strip.chomp
+
+  when 'Student' || 'Instructor'
     print "What is your name? "
     person.name = gets.strip.chomp
     print "What is your email? "
     person.email = gets.strip.chomp
     print "What sort of instructor are you? "
     person.type = gets.strip.chomp
+    
+
+    
+  when 'Instructor'
+    person = Instructor.new
+    # print "What is your name? "
+    # person.name = gets.strip.chomp
+    # print "What is your email? "
+    # person.email = gets.strip.chomp
+    # print "What sort of instructor are you? "
+    # person.type = gets.strip.chomp
   end
   
   # Append this to our yaml file
