@@ -1,0 +1,12 @@
+--- 
+...
+--- !ruby/object:Student
+name: constantin
+email: mitides.constantin@gmail.com
+reason_for_joining: i want to learn
+favorite_bar: this one
+favorite_color: green
+bday: aug
+--- 
+...
+
