@@ -27,13 +27,13 @@ while ((input = gets.strip.chomp) != 'q') do
   person = nil
   case input
   when 'Student' 
+    print "Why are you taking this course? "
     Student.reason_for_joining = gets.strip.chomp
     # person = Student.new
     # print "What is your name? "
     # person.name = gets.strip.chomp
     # print "What is your email? "
     # person.email = gets.strip.chomp
-    # print "Why are you taking this course? "
     # print "whats your favorite bar? "
     # person.favorite_bar = gets.strip.chomp
 
