@@ -1,12 +1,49 @@
---- 
-...
---- !ruby/object:Student
-name: constantin
-email: mitides.constantin@gmail.com
-reason_for_joining: i want to learn
-favorite_bar: this one
-favorite_color: green
-bday: aug
---- 
-...
 
+--- !ruby/object:Student
+name: Jonathan Woodruff Rogers III
+email: jw.rogers87@gmail.com
+github_user: Wisecracker
+twitter: Wisecracker100
+fun_fact: My arms are actually legs and vice verse
+--- !ruby/object:Student
+name: Mathilda
+email: mathildathompson288@gmail.com
+github_user: mathildathompson
+twitter: mathildathompson288
+fun_fact: I got attacked my a brown bear when I was 4
+--- !ruby/object:Student
+name: Joe
+email: joseph.simoes@gmail.com
+github_user: jacs1
+twitter: JSimoes01
+fun_fact: I was a pro NBA player at 6
+--- !ruby/object:Student
+name: Chris Wong
+email: chwongris@gmail.com
+github_user: chwongris
+twitter: chwonger
+fun_fact: i love karaoke
+--- !ruby/object:Student
+name: benj
+email: bensdecker@gmail.com
+github_user: becker10
+twitter: bdecker19
+fun_fact: i'm fun
+--- !ruby/object:Student
+name: Jen
+email: jennolim@gmail.com
+github_user: jennojenno
+twitter: jenno
+fun_fact: I should be good at Starcraft but I aint
+--- !ruby/object:Student
+name: Roman
+email: rome.gun@gmail.com
+github_user: RomanG
+twitter: ! '@WhoIsRomanGun'
+fun_fact: I have a foot tattoo
+--- !ruby/object:Student
+name: shdlhs
+email: kdhah
+github_user: lskhdl
+twitter: lsdhlh
+fun_fact: dshlh
