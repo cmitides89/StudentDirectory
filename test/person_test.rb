@@ -56,5 +56,4 @@ class PersonTest < Test::Unit::TestCase
   def teardown
     Person.close_database
   end
-
 end
